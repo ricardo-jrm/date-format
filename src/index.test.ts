@@ -6,7 +6,7 @@ describe('format dates', () => {
     const mockFormat = jest.fn(dateFormat);
 
     mockFormat.mockReturnValue('12:00 AM - 31 Jan, 2022 GMT');
-    expect(dateFormat(new Date('2022-01-31'))).toBe(
+    expect(mockFormat(new Date('2022-01-31'))).toBe(
       '12:00 AM - 31 Jan, 2022 GMT',
     );
   });
@@ -21,7 +21,7 @@ describe('format dates', () => {
       to: 'in 2 months',
       toNow: '2 months ago',
     });
-    expect(dateRelative(new Date('2022-01-31'))).toEqual({
+    expect(mockRelative(new Date('2022-01-31'))).toEqual({
       from: '2 months ago',
       fromNow: 'in 2 months',
       to: 'in 2 months',
