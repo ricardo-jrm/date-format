@@ -2,7 +2,6 @@
   "name": "@ricardo-jrm/date-format",
   "description": "Typescript NPM Package Boilerplate",
   "version": "0.0.3-development",
-  "bin": "bin.js",
   "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
   "type": "module",
