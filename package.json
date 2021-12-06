@@ -21,7 +21,7 @@
   "license": "MIT",
   "keywords": [
     "typescript",
-    "npm"
+    "dayjs"
   ],
   "scripts": {
     "build": "tsc",
