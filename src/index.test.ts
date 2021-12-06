@@ -1,9 +1,9 @@
-import { novaHelloWorld } from './index';
+import { dateFormat, dateRelative } from './index';
 
-describe('example test suite', () => {
-  it('should console.log "Hello World from Nova"', () => {
-    console.log = jest.fn(); // eslint-disable-line no-console
-    novaHelloWorld();
-    expect(console.log).toHaveBeenCalledWith('Hello World from Nova'); // eslint-disable-line no-console
+describe('format dates', () => {
+  it('should format "new Date(2022-01-31)" to "12:00 AM - 31 Jan, 2022 GMT"', () => {
+    expect(dateFormat(new Date('2022-01-31'))).toBe(
+      '12:00 AM - 31 Jan, 2022 GMT',
+    );
   });
 });

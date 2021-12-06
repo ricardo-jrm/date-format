@@ -36,13 +36,11 @@ yarn add @ricardo-jrm/date-format
 ```ts
 import { dateFormat } from '@ricardo-jrm/date-format'
 
-dateFormat()
--> 
+dateFormat(new Date('2022-01-31'))
+-> '12:00 AM - 31 Jan, 2022 GMT'
 ```
 
 <br />
-
-
 
 <br />
 
