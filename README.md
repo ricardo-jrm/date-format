@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🟪 `@ricardo-jrm/date-format`
+# 🌙 `@ricardo-jrm/date-format`
 
 <b>Format dates</b>
 
