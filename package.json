@@ -2,7 +2,7 @@
   "name": "@ricardo-jrm/date-format",
   "description": "Format dates",
   "version": "0.0.6-development",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
